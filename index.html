@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test File Zipper</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Text File Zipper</h1>
+	<div class="row">
+		<div class="col-md" style="background-color: #95D1CC; overflow-y: scroll;">
+			 <span id="treearea" style="width: 100%; text-align: center; font-size: large;">
+                Watch out for Tree Structure!
+            </span>
+		</div>
+		<div class="col-md" style="background-color: #F6F2D4;">
+			 <span id="temptext" style="width: 100%; text-align: center; font-size: large;">
+                Watch out for Operation info!
+            </span>
+		</div>
+	</div>
+	<div class = "bottom">
+		<form method = "post" enctype="multipart/form-data" style="display: inline-block;">
+			<input style="color: white;" type = "file" id="uploadedFile"/>
+		</form>
+		<br>
+		<button type = "button" class = "btn btn-success center-buttons" id = "encode">&nbsp;&nbsp;Encode&nbsp;&nbsp;</button>
+		<br>
+		<button type = "button" class = "btn btn-success center-buttons" id = "decode">&nbsp;&nbsp;Decode&nbsp;&nbsp;</button>
+	</div>
+
+	<script src="heap.js"></script>
+    <script src="huffman.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

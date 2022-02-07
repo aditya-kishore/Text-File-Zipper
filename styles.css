@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #22577E;
+	position: relative;
+}
+.row {
+	width: 100%;
+	margin: auto;
+	height: 500px;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+.bottom {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.col-md {
+	width: 700px;
+	height: 500px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	font-size: large;
+	padding-top: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.btn {
+	margin-top: 10px;
+}
